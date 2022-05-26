@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Api;
 
 use Illuminate\Http\Request;
 
@@ -13,7 +13,7 @@ class ApiController extends Controller
      */
     public function index()
     {
-        //
+        return response()->json('ok');
     }
 
     /**
